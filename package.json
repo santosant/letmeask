@@ -47,8 +47,9 @@
   "devDependencies": {
     "@babel/preset-typescript": "^7.14.5",
     "@types/react-router-dom": "^5.1.7",
+    "@typescript-eslint/parser": "^4.28.2",
     "eslint": "^7.30.0",
-    "eslint-config-prettier": "^8.3.0", 
+    "eslint-config-prettier": "^8.3.0",
     "eslint-config-react": "^1.1.7",
     "eslint-plugin-prettier": "^3.4.0",
     "husky": "^7.0.1",
@@ -57,7 +58,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "echo 'teste'"
     }
   },
   "lint-staged": {
